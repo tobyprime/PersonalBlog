@@ -129,14 +129,28 @@
   </url>
   
   <url>
-    <loc>https://tobyprime.top/tags/Object-Detection/</loc>
+    <loc>https://tobyprime.top/tags/Video-Understanding/</loc>
     <lastmod>2023-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://tobyprime.top/tags/Video-Understanding/</loc>
+    <loc>https://tobyprime.top/tags/Video-Object-Segmentation/</loc>
+    <lastmod>2023-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tobyprime.top/tags/Object-Segmentation/</loc>
+    <lastmod>2023-03-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tobyprime.top/tags/Object-Detection/</loc>
     <lastmod>2023-03-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

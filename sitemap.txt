@@ -1,5 +1,6 @@
-https://tobyprime.top/2023/04/16/Optimization/QuadraticProgramming/
+https://tobyprime.top/2023/04/18/MachineLearning/Clustering/
 https://tobyprime.top/2023/04/15/Optimization/LagrangeMultipliers/
+https://tobyprime.top/2023/04/16/Optimization/QuadraticProgramming/
 https://tobyprime.top/2022/11/10/Optimization/SimplexAlgorithm/
 https://tobyprime.top/2022/11/10/PaperReading/DETR/
 https://tobyprime.top/2022/07/06/PaperReading/I3D/

@@ -5,8 +5,6 @@ date: 2022-11-08 17:14:16
 tags:
 - Object Tracking
 - Computer Vision
-- Deep Learning
-- Note
 categories:
 - Paper Reading
 ---

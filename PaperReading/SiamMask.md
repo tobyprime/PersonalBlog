@@ -6,8 +6,6 @@ tags:
 - VOS
 - Object Tracking
 - Computer Vision
-- Deep Learning
-- Note
 categories:
 - Paper Reading
 ---

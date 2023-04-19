@@ -1,17 +1,16 @@
 ---
 title: 支持向量机
 date: 2023-04-06 11:54:33
-cover: https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kernel_Machine.png/220px-Kernel_Machine.png
+cover: cover.png
 tags:
 - Machine Learnng
-- Note
 categories:
 - Machine Learnng
 ---
 是一种二分类模型，目的是找到一个超平面，使得它能够正确划分训练数据集，并且使得训练数据集中离超平面最近的点（即支持向量）到超平面的距离最大。
 
 # 硬间隔SVM
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Svm_max_sep_hyperplane_with_margin.png/220px-Svm_max_sep_hyperplane_with_margin.png)
+![](hard-svm.png)
 
 定义有三个超平面：
 1. 超平面： $w^Tx+b=0$，这个超平面用于在预测时，判断在两个超平面之间的样本点。

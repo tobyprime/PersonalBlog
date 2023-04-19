@@ -4,7 +4,6 @@ date: 2023-03-31 21:41:03
 cover: cover.gif
 tags:
 - Machine Learnng
-- Note
 categories:
 - Machine Learnng
 ---

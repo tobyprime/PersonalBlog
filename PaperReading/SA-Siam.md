@@ -5,8 +5,6 @@ cover: structure.png
 tags:
 - Object Tracking
 - Computer Vision
-- Deep Learning
-- Note
 categories:
 - Paper Reading
 ---

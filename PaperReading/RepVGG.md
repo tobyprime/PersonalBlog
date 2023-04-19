@@ -5,8 +5,6 @@ cover: cover.png
 tags:
 - Backbone
 - Computer Vision
-- Deep Learning
-- Note
 categories:
 - Paper Reading
 ---

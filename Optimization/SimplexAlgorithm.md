@@ -1,16 +1,18 @@
 ---
-title: 最优化理论与算法 - 单纯形法
+title: 最优化 - 单纯形法
 date: 2022-11-10 21:52:12
 tags:
-- Note
+- Optimization
+- Math
 categories:
-- 最优化理论与算法
+- 最优化
 ---
-单纯形法的主要思想是，从一个初始基本可行解开始，迭代改进可行解，直到达到最优。
+优化多维无约束问题的一种数值方法，主要思想是，从一个初始基本可行解开始，迭代改进可行解，直到达到最优。
 # 基本概念
 对于线性规划的标准形式：
 
-$$\begin{aligned}
+$$
+\begin{aligned}
 \min &&f &\equiv cx  \\
 \text{s.t.}&& Ax&=b  \\
 && x &\geq 0
@@ -59,14 +61,15 @@ $$\begin{aligned}
 Ax &=b \\
 (B,N)
 \left(
-\begin{array}{c}
+\begin{matrix}
 x_B \\
 x_N
-\end{array}
-\right) &=b \\
+\end{matrix}
+\right) 
+&=b \\
 Bx_B + Nx_N&=b \\
-x_B &= B^{-1}b-B^{-1}Nx_N \tag{2}
-\end{aligned}
+x_B &= B^{-1}b-B^{-1}Nx_N
+\end{aligned}\tag{2}
 $$
 目标函数值为：
 $$\begin{aligned}

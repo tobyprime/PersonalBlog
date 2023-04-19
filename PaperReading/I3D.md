@@ -5,8 +5,6 @@ cover: struct.png
 tags:
 - Video Understanding
 - Computer Vision
-- Deep Learning
-- Note
 categories:
 - Paper Reading
 ---

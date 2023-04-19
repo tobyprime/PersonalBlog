@@ -5,8 +5,6 @@ date: 2022-11-10 16:21:19
 tags:
 - Object Detection
 - Computer Vision
-- Deep Learning
-- Note
 categories:
 - Paper Reading
 ---

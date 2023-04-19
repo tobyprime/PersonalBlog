@@ -4,11 +4,9 @@ date: 2023-03-30 05:05:42
 cover: struct.png
 tags:
 - Video Understanding
-- Video Object Segmentation
+- VOS
 - Object Segmentation
 - Computer Vision
-- Deep Learning
-- Note
 categories:
 - Paper Reading
 ---

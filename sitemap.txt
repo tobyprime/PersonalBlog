@@ -1,6 +1,6 @@
+https://tobyprime.top/2023/04/18/MachineLearning/Clustering/
 https://tobyprime.top/2023/04/02/MachineLearning/DecisionTree/
 https://tobyprime.top/2023/04/06/MachineLearning/SVM/
-https://tobyprime.top/2023/04/18/MachineLearning/Clustering/
 https://tobyprime.top/2023/04/15/Optimization/LagrangeMultipliers/
 https://tobyprime.top/2023/04/16/Optimization/QuadraticProgramming/
 https://tobyprime.top/2022/11/10/Optimization/SimplexAlgorithm/

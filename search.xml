@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>最优化 - 单纯形法</title>
+      <link href="/2023/04/20/Readme/"/>
+      <url>/2023/04/20/Readme/</url>
+      
+        <content type="html"><![CDATA[<p>以前的 Blog 源码丢了，虽然手动复制一下html上的文字也挺方便的，不过自己去看以前写的那些笔记实在是写的太烂，干脆就全丢了算了。</p><hr><p>blog markdown源码：<a href="https://github.com/tobyprime/PersonalBlog">https://github.com/tobyprime/PersonalBlog</a></p><hr><p>长长长链：<a href="https://ooooooooooooooooooooooo.ooo/oooo%CE%BF%D0%BE%D0%BEo%CE%BF%E1%B4%8F%CE%BFo%CE%BF%E1%B4%8F%CE%BFo%CE%BF%E1%B4%8Foo%CE%BF%E1%B4%8Fo%E1%B4%8Fo%E1%B4%8F%D0%BE%D0%BEo%D0%BE%E1%B4%8F%E1%B4%8Fo%D0%BE%E1%B4%8F%E1%B4%8F%CE%BF%E1%B4%8F%CE%BFo%CE%BF%D0%BE%E1%B4%8F%E1%B4%8F%CE%BF%D0%BEo%D0%BE%CE%BF%E1%B4%8F%D0%BE%CE%BF%CE%BF%E1%B4%8Foo%CE%BF%E1%B4%8Fo%D0%BE%CE%BF%D0%BE%D0%BE%CE%BF%CE%BF%D0%BE%E1%B4%8F%CE%BF%CE%BF%D0%BE%CE%BF%CE%BFo%D0%BE%E1%B4%8F%D0%BE%CE%BF%E1%B4%8F%CE%BFo%CE%BF%D0%BE%E1%B4%8F%E1%B4%8F%CE%BF%E1%B4%8Foo">https://ooooooooooooooooooooooo.ooo/ooooοооoοᴏοoοᴏοoοᴏooοᴏoᴏoᴏооoоᴏᴏoоᴏᴏοᴏοoοоᴏᴏοоoоοᴏоοοᴏooοᴏoоοооοοоᴏοοоοοoоᴏоοᴏοoοоᴏᴏοᴏoo</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂项 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>聚类</title>
       <link href="/2023/04/18/MachineLearning/Clustering/"/>
       <url>/2023/04/18/MachineLearning/Clustering/</url>

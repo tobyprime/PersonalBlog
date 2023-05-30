@@ -1,3 +1,4 @@
+https://tobyprime.top/2023/04/06/MachineLearning/SVM/
 https://tobyprime.top/2023/04/15/Optimization/LagrangeMultipliers/
 https://tobyprime.top/2023/05/28/Math/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%20-%20%E6%95%B0%E5%88%97/
 https://tobyprime.top/2023/04/23/MachineLearning/EnsembleLearning/
@@ -8,7 +9,6 @@ https://tobyprime.top/2023/04/02/MachineLearning/DecisionTree/
 https://tobyprime.top/2023/04/18/MachineLearning/Clustering/
 https://tobyprime.top/about/index.html
 https://tobyprime.top/2023/04/20/Readme/
-https://tobyprime.top/2023/04/06/MachineLearning/SVM/
 https://tobyprime.top/2023/04/16/Optimization/QuadraticProgramming/
 https://tobyprime.top/2022/11/10/Optimization/SimplexAlgorithm/
 https://tobyprime.top/2022/11/10/PaperReading/DETR/
@@ -21,8 +21,9 @@ https://tobyprime.top/2022/11/11/PaperReading/SwinTrack/
 https://tobyprime.top/2022/11/08/PaperReading/SiamRPN/
 https://tobyprime.top/tags/index.html
 https://tobyprime.top/
-https://tobyprime.top/tags/Optimization/
+https://tobyprime.top/tags/Machine-Learnng/
 https://tobyprime.top/tags/Math/
+https://tobyprime.top/tags/Optimization/
 https://tobyprime.top/tags/Object-Detection/
 https://tobyprime.top/tags/Computer-Vision/
 https://tobyprime.top/tags/Video-Understanding/
@@ -30,9 +31,8 @@ https://tobyprime.top/tags/Backbone/
 https://tobyprime.top/tags/Object-Tracking/
 https://tobyprime.top/tags/VOS/
 https://tobyprime.top/tags/Object-Segmentation/
-https://tobyprime.top/tags/Machine-Learnng/
 https://tobyprime.top/categories/%E6%9D%82%E9%A1%B9/
-https://tobyprime.top/categories/%E6%9C%80%E4%BC%98%E5%8C%96/
-https://tobyprime.top/categories/Paper-Reading/
 https://tobyprime.top/categories/Machine-Learnng/
 https://tobyprime.top/categories/Mathematical-Analysis/
+https://tobyprime.top/categories/%E6%9C%80%E4%BC%98%E5%8C%96/
+https://tobyprime.top/categories/Paper-Reading/

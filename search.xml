@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title></title>
-      <link href="/2023/06/10/HomePage/"/>
-      <url>/2023/06/10/HomePage/</url>
-      
-        <content type="html"><![CDATA[<p class='katex-block katex-error' title='ParseError: KaTeX parse error: Undefined control sequence: \DeclareMathOperator at position 2:  \̲D̲e̲c̲l̲a̲r̲e̲M̲a̲t̲h̲O̲p̲e̲r̲a̲t̲o̲r̲*{\argmin}{arg\…'> \DeclareMathOperator*{\argmin}{arg\,min} \DeclareMathOperator*{\argmax}{arg\,max} \DeclareMathOperator{sign}{\mathop{sign}}\DeclareMathOperator{st}{\ \ \text{s.t.} \  }</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>数学分析 - 数列</title>
       <link href="/2023/05/28/Math/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%20-%20%E6%95%B0%E5%88%97/"/>
       <url>/2023/05/28/Math/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%20-%20%E6%95%B0%E5%88%97/</url>

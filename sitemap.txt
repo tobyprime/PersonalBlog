@@ -1,3 +1,5 @@
+https://tobyprime.top/2023/06/18/Math/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%20-%20%E5%B9%B3%E9%9D%A2/
+https://tobyprime.top/2022/11/10/Optimization/SimplexAlgorithm/
 https://tobyprime.top/2023/05/28/Math/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%20-%20%E6%95%B0%E5%88%97/
 https://tobyprime.top/2023/04/23/MachineLearning/EnsembleLearning/
 https://tobyprime.top/2023/04/06/MachineLearning/SVM/
@@ -10,7 +12,6 @@ https://tobyprime.top/2023/04/18/MachineLearning/Clustering/
 https://tobyprime.top/about/index.html
 https://tobyprime.top/2023/04/20/Readme/
 https://tobyprime.top/2023/04/16/Optimization/QuadraticProgramming/
-https://tobyprime.top/2022/11/10/Optimization/SimplexAlgorithm/
 https://tobyprime.top/2022/11/10/PaperReading/DETR/
 https://tobyprime.top/2022/07/06/PaperReading/I3D/
 https://tobyprime.top/2023/03/15/PaperReading/RepVGG/

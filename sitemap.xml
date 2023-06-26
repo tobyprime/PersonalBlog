@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://tobyprime.top/2023/06/18/Math/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%20-%20%E5%B9%B3%E9%9D%A2/</loc>
+    
+    <lastmod>2023-06-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tobyprime.top/2023/05/28/Math/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%20-%20%E6%95%B0%E5%88%97/</loc>
+    
+    <lastmod>2023-06-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tobyprime.top/2023/04/20/Readme/</loc>
     
     <lastmod>2023-06-26</lastmod>
@@ -11,27 +29,9 @@
   </url>
   
   <url>
-    <loc>https://tobyprime.top/2023/06/18/Math/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%20-%20%E5%B9%B3%E9%9D%A2/</loc>
-    
-    <lastmod>2023-06-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tobyprime.top/2022/11/10/Optimization/SimplexAlgorithm/</loc>
     
     <lastmod>2023-06-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tobyprime.top/2023/05/28/Math/%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90%20-%20%E6%95%B0%E5%88%97/</loc>
-    
-    <lastmod>2023-06-16</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

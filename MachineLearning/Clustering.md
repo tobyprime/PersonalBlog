@@ -20,34 +20,37 @@ categories:
 是一种质心聚类。给定数据集$D$，需要$k$个原型（均值向量）$\mu=\{\mu_{1},\dots,\mu_{k}\}$，来划分为 $k$ 个簇$C=\{C_{1},\dots C_{k}\}$。
 目标是：$\min_{\mu}\sum^n_{i} \sum_{x \in C_{i}} {||x-\mu_{j}||}^2$，是个非凸NP问题，只能通过迭代下降近似得到一个局部最优解
 
-优化过程伪代码：
+优化过程伪代码[完整代码](https://github.com/tobyprime/MachineLearning/blob/master/Clustering/kmeans.py)：
 ```Python
-# 给定：
-dataset:list[]  # D={x_1,...,x_n}
+dataset:list # D={x_1,...,x_n}
 k:int  # 给定 k 个簇
 
-# 方法：
-distance(a:vector,b:vector)->scalar:...  # 计算向量 a 与 b 之间的距离
+def distance(a:vector,b:vector)->scalar:...  # 计算向量 a 与 b 之间的距离
 
 
-prototypes:list[vector]  # u={u_1,...,u_k}  从数据集中随机选择 k 个样本点作为初始原型
+# 从数据集中随机无放回的随机采样 k 个样本作为原型  
+rand_idx = random.sample(range(len(dataset)), k)  
+prototypes = [dataset[idx] for idx in rand_idx]
 
-while(True):
-	clusters:list[list[vector]]=[[]*k]  # k个簇，初始为空
-	
-	for i in range(1,n+1):
-		d = [distance(x[i],prototypes[j]) for j in range(1,k+1)]  # 计算各样本与原型的距离
-		idx = d.index(min(d))  # 取得与样本距离最小的原型下标
-		cluster[idx].append(x[i])  # 将该样本放入距离最小原型对应的簇中
-	
-	updated = False
-	for i in range(1,k):
-		prototype = avg(clusters[i])  # 计算新的原型
-		if prototype != prototypes[i]:
-			prototypes[i]=prototype
-			updated=True
-	if not update:
-		return  # 如果原型均没有更新，则说明收敛。
+while True:  
+    clusters: list[list[np.ndarray]] = [[] for _ in range(k)]  # k个簇，初始为空  
+  
+    # step: 计算簇  
+    for sample in dataset:  
+        d = [distance(sample, prototypes[j]) for j in range(k)]  # 计算该样本与各原型的距离  
+        idx = d.index(min(d))  # 取得与该样本距离最小的原型下标  
+        clusters[idx].append(sample)  # 将该样本放入距离最小原型对应的簇中  
+  
+    # step: 更新原型  
+    updated = False  
+    for i in range(k):  
+        prototype: np.ndarray = np.average(clusters[i], axis=0)  # 计算新的原型  
+        if all(prototype != prototypes[i]):  # 如果原型有变化  
+            updated = True  
+            prototypes[i] = prototype  # 更新原型  
+    print(prototypes)  
+    if not updated:  # 如果所有原型都没有变化  
+        return prototypes  # 如果原型均没有更新，则说明收敛。
 			
 
 ```
@@ -93,7 +96,7 @@ $$
 $$
 \Sigma_{j}=\frac{\sum^n_{i} p_{M}(z_{i}=j|x_{i})(x_{i}-\mu_{j})(x_{i}-\mu_{j})^T}{\sum^n_{i} p_{M}(z_{i}=j|x_{i})}
 \tag{5}$$
-对于 $\alpha_{j}$还需要满足约束$a_{j}\geq 0,\sum^k_{j}\alpha_{j}=1$，对拉格朗日形式$LL+\lambda\left( \sum\alpha_{i}-1 \right)$求导置$0$：
+对于 $\alpha_{j}$还需要满足约束$a_{j}\geq 0,\sum^k_{j}\alpha_{j}=1$，对拉格朗日形式$LL+\lambda\left( \sum^k_{j=1}\alpha_{j}-1 \right)$求导置$0$：
 $$\sum^n_{i=1} \frac{p(x_{i}|\mu_{j},\Sigma_{j})}{\sum^k_{l=1}\alpha_{l} \cdot p(x_{i}|\mu_{l}.\Sigma_{l})}=-\lambda$$
 两别同乘以 $\alpha_{j}$:
 $$\sum^n_{i=1} \frac{\alpha_{j} p(x_{i}|\mu_{j},\Sigma_{j})}{\sum^k_{l=1}\alpha_{l} \cdot p(x_{i}|\mu_{l}.\Sigma_{l})}=-\lambda\alpha_{j}$$

@@ -14,15 +14,15 @@ categories:
 
 定义有三个超平面：
 1. 超平面： $w^Tx+b=0$，这个超平面用于在预测时，判断在两个超平面之间的样本点。
-2. 正超平面：$w^Tx+b=1$，在其之上的，划分为正类
-3. 负超平面：$w^Tx+b=-1$，在其之下的，划分为反类
+2. 正超平面：$w^Tx+b=1$，优化时，保证正类都在其之上
+3. 负超平面：$w^Tx+b=-1$，优化时，保证负类都在其之下
 
 样本中任意点到超平面$w^Tx+b=0$的距离可以写为：
 $$
 r_{i}=\frac{|w^Tx+b|}{\Vert  w \Vert }
 $$
 
-假设正超平面到超平面的距离为$r^+$
+假设正超平面到超平面的距离为 $r^+$
 $$
 \begin{cases}
 w^Tx+b=1 \\
@@ -33,7 +33,7 @@ $$
 $$
 r^+=\frac{1}{\Vert w\Vert }
 $$
-在我们的定义中正负两超平面对称，$r^+=r^-$，即间隔$r$：
+在我们的定义中正负两超平面对称，$r^+=r^-$，即正负超平面之间的间隔 $r=2r^+$：
 $$r=\frac{2}{\Vert w\Vert }\tag{1}$$
 此时若能正确分类则任意的样本点$(x^{(i)},y^{(i)})$满足：
 $$
@@ -42,7 +42,7 @@ w^Tx^{(i)}+b\geq 1&,y^{i}=1 \\
 w^Tx^{(i)}+b\leq -1&,y^{i}=-1
 \end{cases}
 $$
-由于，标签$y^{(i)} \in(+1,-1)$
+由于，标签$y^{(i)} \in(+1,-1)$，如果模型预测正确，则预测值的符号与标签符号相等，积大于$1$
 所以可以将上式简写为：
 $$y^{(i)}(w^Tx^{(i)}+b)\geq 1 \tag{2}$$
 
@@ -67,7 +67,7 @@ $$
 # 软间隔
 很多情况下，数据是线性不可分的，即，永远无法满足式$(2)$，此时我们需要引入铰链损失：
 $$\zeta_{i}=\max(0,1-y^{(i)}(w^Tx^{(i)}+b)) \tag{4}$$
-即，若样本点$x^{(i)}$被正确分类时，损失为$0$，被错误分类时，损失的值与到超平面（并非正超平面或负超平面）的距离成正比。
+即，若样本点 $x^{(i)}$ 被正确分类时，损失为 $0$，被错误分类时，损失的值与到超平面（并非正超平面或负超平面）的距离成正比。
 
 对于目标$(1)$改为：
 $$\lambda\sum_{i}\zeta_{i}+\frac{1}{2}\Vert w\Vert ^2$$
@@ -82,18 +82,18 @@ $$
 &s.t. \ \ \forall i\ \ -y^{(i)}(w^Tx^{(i)}+b)-1+\zeta_{i}\leq0 \ \ \text{and} \ \ -\zeta_{i}\leq 0 \\
 \end{aligned}\tag{6}
 $$
-$\lambda$表示了间隔大小的重要程度，仍然是凸优化问题强对偶性成立，其拉格朗日函数为：
+$\lambda$ 表示了间隔大小的重要程度，仍然是凸优化问题强对偶性成立，其拉格朗日函数为：
 $$
 L(w,b,\alpha,\mu)=\frac{1}{2}\Vert w\Vert ^2+\lambda\sum_{i}\zeta_{i}-\sum_{i}\alpha_{i}\left[y^{(i)}(w^Tx^{(i)}+b)-1+\zeta_{i}\right]-\sum_{i}\mu_{i}\zeta_{i}
 $$
-分别对$w,b$求偏导并置$0$，由于这里对$\zeta$求导比较复杂，可以直接$L$对$\zeta$求导，因为
+分别对$w,b$求偏导并置$0$，由于这里对 $\zeta$ 求导比较复杂，可以直接$L$对 $\zeta$ 求导，因为
 $$
 f(x,y)=g(x,y,h(x,y))
 $$
 $$
 \frac{\partial f}{\partial x}=\frac{\partial f}{\partial h}\frac{\partial h}{\partial x}
 $$
-若导数存在且 $\frac{\partial f}{\partial h}|_{h=h^\star}=0$，必然$\frac{\partial f}{\partial x}|_{h=h^\star}=0$，意义相同。
+若导数存在且 $\frac{\partial f}{\partial h}|_{h=h^\star}=0$，必然 $\frac{\partial f}{\partial x}|_{h=h^\star}=0$，意义相同。
 
 所以拉格朗日函数对$w,b,\zeta$分别求偏导得到：
 $$
@@ -105,7 +105,7 @@ $$
 $$
 其中$\mathbb{1}\in \mathbb{R}^n,\forall i \ \ \mathbb{1}_{i}=1$，$\alpha=\{\alpha_{i}\}^n_{i=1}$，$\mu=\{\mu_{i}\}^n_{i=1}$
 
-带回拉格朗日函数，得到拉格朗日对偶函数：
+代回拉格朗日函数，得到拉格朗日对偶函数：
 $$
 \begin{aligned}
 g(\alpha,\mu)&=\frac{1}{2} w^Tw-w^T\sum_{i}\alpha_{i}y^{(i)}x^{(i)}+\sum_{i}\alpha_{i}y^{(i)}b+\sum_{i}\alpha_{i}+\lambda\sum_{i}\zeta_{i}-\sum_{i}\alpha_{i}\zeta_{i}-\sum_{i}\mu_{i}\zeta_{i}\\

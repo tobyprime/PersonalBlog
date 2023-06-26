@@ -102,7 +102,7 @@ $$
 令 $x_d=(x_1-\bar{x};...;x_n-\bar{x})$，为去均值后的 $x$，$y_d=(y_1-\bar{y};...;y_n-\bar{y})$ 为去均值后的 $y$，代入上式：
 $$
 \begin{aligned}
-w=\frac{x_d^Ty_d}{d_d^T x_d}
+w=\frac{x_d^Ty_d}{x_d^T x_d}
 \end{aligned} 
 $$
 

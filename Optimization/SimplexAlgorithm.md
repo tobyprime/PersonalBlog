@@ -13,7 +13,7 @@ categories:
 
 $$
 \begin{aligned}
-\min &&f &\equiv cx  \\
+\min &&f &= cx  \\
 \text{s.t.}&& Ax&=b  \\
 && x &\geq 0
 \end{aligned}

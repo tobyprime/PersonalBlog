@@ -23,8 +23,8 @@ https://tobyprime.top/2022/11/08/PaperReading/SiamRPN/
 https://tobyprime.top/tags/index.html
 https://tobyprime.top/
 https://tobyprime.top/tags/Machine-Learnng/
-https://tobyprime.top/tags/Math/
 https://tobyprime.top/tags/Optimization/
+https://tobyprime.top/tags/Math/
 https://tobyprime.top/tags/Object-Detection/
 https://tobyprime.top/tags/Computer-Vision/
 https://tobyprime.top/tags/Video-Understanding/
@@ -34,6 +34,6 @@ https://tobyprime.top/tags/VOS/
 https://tobyprime.top/tags/Object-Segmentation/
 https://tobyprime.top/categories/%E6%9D%82%E9%A1%B9/
 https://tobyprime.top/categories/Machine-Learnng/
-https://tobyprime.top/categories/Mathematical-Analysis/
 https://tobyprime.top/categories/%E6%9C%80%E4%BC%98%E5%8C%96/
 https://tobyprime.top/categories/Paper-Reading/
+https://tobyprime.top/categories/Mathematical-Analysis/

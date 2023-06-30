@@ -4,7 +4,7 @@
   <url>
     <loc>https://tobyprime.top/2023/04/20/Readme/</loc>
     
-    <lastmod>2023-06-29</lastmod>
+    <lastmod>2023-06-30</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -225,14 +225,14 @@
   </url>
   
   <url>
-    <loc>https://tobyprime.top/tags/Optimization/</loc>
+    <loc>https://tobyprime.top/tags/Math/</loc>
     <lastmod>2023-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://tobyprime.top/tags/Math/</loc>
+    <loc>https://tobyprime.top/tags/Optimization/</loc>
     <lastmod>2023-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -304,6 +304,13 @@
   </url>
   
   <url>
+    <loc>https://tobyprime.top/categories/Mathematical-Analysis/</loc>
+    <lastmod>2023-06-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://tobyprime.top/categories/%E6%9C%80%E4%BC%98%E5%8C%96/</loc>
     <lastmod>2023-06-30</lastmod>
     <changefreq>weekly</changefreq>
@@ -312,13 +319,6 @@
   
   <url>
     <loc>https://tobyprime.top/categories/Paper-Reading/</loc>
-    <lastmod>2023-06-30</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tobyprime.top/categories/Mathematical-Analysis/</loc>
     <lastmod>2023-06-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

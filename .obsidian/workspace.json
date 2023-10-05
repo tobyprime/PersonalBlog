@@ -1,0 +1,204 @@
+{
+  "main": {
+    "id": "166cf92aec0a509d",
+    "type": "split",
+    "children": [
+      {
+        "id": "212ccbb51336c9da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5342dbb8ddd383b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/数学分析  - 连续函数.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1a1ab442f47c86cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "99fa55e8d4e92641",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d2cc676a4f37eb54",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "41352ac3df410fd8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "梯度",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d68ff3e9776d1aa8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6055a450ff3c3d90",
+    "type": "split",
+    "children": [
+      {
+        "id": "3fa2c06cd87acb8b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1d8d084180d2a077",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Math/数学分析  - 连续函数.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f613cef6501df481",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Math/数学分析  - 连续函数.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8e4cc0ca7612d37f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "43e57dab5e913c12",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Math/数学分析  - 连续函数.md"
+              }
+            }
+          },
+          {
+            "id": "3ce25d884a0720f5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "f5342dbb8ddd383b",
+  "lastOpenFiles": [
+    "Math/数学分析  - 连续函数.md",
+    "Math/数学分析 - 函数极限.md",
+    "Math/数学分析 - 数列.md",
+    "Math/数学分析 - 数列/数列.png",
+    "Math/Latex 符号表.md",
+    "Math/数学分析 - 平面.md",
+    "Math/数学分析 - 复平面.md",
+    "Readme.md",
+    "连续函数",
+    "Math/数学分析 - 连续函数.md",
+    "MachineLearning/LinearRegression.md",
+    "MachineLearning/GradientDescent.md",
+    "MachineLearning/EnsembleLearning.md",
+    "Blender/Overview.md",
+    "Blender",
+    "MachineLearning/Clustering.md",
+    "MachineLearning/DecisionTree.md",
+    "MachineLearning/LinearRegression/cover.gif",
+    "MachineLearning/SVM/cover.png",
+    "MachineLearning/SVM/hard-svm.png",
+    "PaperReading/SwinTrack.md",
+    "PaperReading/SiamRPN.md",
+    "PaperReading/SA-Siam.md",
+    "Optimization/SimplexAlgorithm.md",
+    "Optimization/LagrangeMultipliers.md",
+    "未命名.md",
+    "MachineLearning/SVM.md",
+    "Optimization/QuadraticProgramming.md",
+    "PaperReading/RepVGG.md",
+    "Math/数学分析 - 数列",
+    "Math/数学分析 - 函数",
+    "PaperReading/SiamMask.md",
+    "PaperReading/Learning to Act through Evolution of Neural Diversity in Random Neural Networks/activations.jpg",
+    "home/toby/Documents/Blog/Readme.md",
+    "home/toby/Documents/Blog",
+    "home/toby/Documents",
+    "home/toby",
+    "home",
+    "Pasted image 20230625181919.png",
+    "PaperReading/Learning to Act through Evolution of Neural Diversity in Random Neural Networks/neuron.jpg",
+    "PaperReading/Learning to Act through Evolution of Neural Diversity in Random Neural Networks"
+  ]
+}

@@ -1,12 +1,13 @@
 ---
 title: SA-Siam
-date: 2022-11-08 08:16:33
 cover: structure.png
 tags:
-- Object Tracking
-- Computer Vision
+  - Object Tracking
+  - Computer Vision
 categories:
-- Paper Reading
+  - Paper Reading
+abbrlink: 14313
+date: 2022-11-08 08:16:33
 ---
 
 # 简介

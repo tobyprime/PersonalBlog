@@ -1,12 +1,13 @@
 ---
 title: SiamRPN
 cover: structure.png
-date: 2022-11-08 17:14:16
 tags:
-- Object Tracking
-- Computer Vision
+  - Object Tracking
+  - Computer Vision
 categories:
-- Paper Reading
+  - Paper Reading
+abbrlink: 48598
+date: 2022-11-08 17:14:16
 ---
 # 概述
 - 将目标检测中的RPN网络应用在目标追踪。

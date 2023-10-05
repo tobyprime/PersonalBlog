@@ -1,11 +1,12 @@
 ---
 title: 最优化 - 二次规划
-date: 2023-04-16 23:31
+date: '2023-04-16 23:31'
 tags:
-- Optimization
-- Math
+  - Optimization
+  - Math
 categories:
-- 最优化
+  - 最优化
+abbrlink: 42224
 ---
 目标函数是变量的二次函数，约束条件是变量的线性不等式：
 $$

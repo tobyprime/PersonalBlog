@@ -1,12 +1,13 @@
 ---
 title: RepVGG
-date: 2023-03-15 03:36:20
 cover: cover.png
 tags:
-- Backbone
-- Computer Vision
+  - Backbone
+  - Computer Vision
 categories:
-- Paper Reading
+  - Paper Reading
+abbrlink: 43208
+date: 2023-03-15 03:36:20
 ---
 在VGG的基础上，结合了ResNet，在VGG的 Block 中加入了$1 \times 1$ 卷积分支和残差分支。并在训练时，通过重参数融合了$3 \times 3$ 卷积、$1 \times 1$ 卷积与 残差连接到一个单独的 $3 \times 3$ 卷积中，大大减少了模型宽度，以节约显存。
 

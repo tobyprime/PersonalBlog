@@ -1,11 +1,13 @@
 ---
 title: 聚类
-date: 2023-04-18 03:41
-cover: https://pic1.zhimg.com/v2-99863816ea8d29383c5ff28a8b7a667e_1440w.jpg?source=172ae18b
+date: '2023-04-18 03:41'
+cover: >-
+  https://pic1.zhimg.com/v2-99863816ea8d29383c5ff28a8b7a667e_1440w.jpg?source=172ae18b
 tags:
-- Machine Learnng
+  - Machine Learnng
 categories:
-- Machine Learnng
+  - Machine Learnng
+abbrlink: 64129
 ---
 一种无监督学习方法，通过无标签的训练样本，学习数据潜在规律，将数据集中的样本划分为多个不相交的子集（簇 cluster），每个子集可能会对应一个潜在的概念，为进一步数据分析提供基础。
 

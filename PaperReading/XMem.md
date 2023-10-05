@@ -1,14 +1,15 @@
 ---
 title: XMem
-date: 2023-03-30 05:05:42
 cover: struct.png
 tags:
-- Video Understanding
-- VOS
-- Object Segmentation
-- Computer Vision
+  - Video Understanding
+  - VOS
+  - Object Segmentation
+  - Computer Vision
 categories:
-- Paper Reading
+  - Paper Reading
+abbrlink: 51817
+date: 2023-03-30 05:05:42
 ---
 使用了三种类型的特征记忆（感官记忆，工作记忆，长期记忆）使得可以处理长视频而不会导致显存占用量过大，同时在短视频上也有良好的性能。为了定期将工作记忆中的重要特征整合到长期记忆，还开发了一个记忆增强算法。
 

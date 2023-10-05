@@ -1,10 +1,11 @@
 ---
 title: EnsembleLearning
-date: 2023-04-23 10:21:01
 tags:
-- Machine Learnng
+  - Machine Learnng
 categories:
-- Machine Learnng
+  - Machine Learnng
+abbrlink: 51087
+date: 2023-04-23 10:21:01
 ---
 多个学习器被训练来解决同一个问题。往往比单个学习器好很多。
 一般结构为：先产生一组“个体学习器”，再用某种策略将它们结合起来。集成学习大致可分为三大类：

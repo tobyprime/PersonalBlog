@@ -1,11 +1,12 @@
 ---
 title: 最优化 - 单纯形法
-date: 2022-11-10 21:52:12
 tags:
-- Optimization
-- Math
+  - Optimization
+  - Math
 categories:
-- 最优化
+  - 最优化
+abbrlink: 47787
+date: 2022-11-10 21:52:12
 ---
 优化多维无约束问题的一种数值方法，主要思想是，从一个初始基本可行解开始，迭代改进可行解，直到达到最优。
 # 基本概念

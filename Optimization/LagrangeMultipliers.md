@@ -1,14 +1,15 @@
 ---
 title: 最优化 - 拉格朗日乘子法
-date: 2023-04-15 11:31
+date: '2023-04-15 11:31'
 tags:
-- Optimization
-- Math
+  - Optimization
+  - Math
 categories:
-- 最优化
+  - 最优化
+abbrlink: 4385
 ---
 是一种寻找多元函数在**一组约束下**的极值的方法。通过引入拉格朗日乘子，将原问题的约束条件吸收进目标函数中形成新的函数，简化为**无约束优化问题**以方便求解：
-1.  构造拉格朗日函数 $L(x,y,\dots,\lambda) = f(x,y,\dots) + \lambda g(x,y, \dots)$，其中 $f(x,y,\dots)$ 是原问题目标函数，$g(x,y, \dots)$$ 是约束条件。
+1.  构造拉格朗日函数 $L(x,y,\dots,\lambda) = f(x,y,\dots) + \lambda g(x,y, \dots)$，其中 $f(x,y,\dots)$ 是原问题目标函数，$g(x,y, \dots)$ 是约束条件。
 2.  求解方程组 $\frac{ \partial L }{ \partial x }=0,\frac{ \partial L }{ \partial y }=0,\dots,\frac{ \partial L }{ \partial \lambda }=0$，得到所有可能的极值点 $(x,y,…,λ)$。
 3.  将极值点代入目标函数 $f(x,y,\dots)$，比较大小，得到最大值和最小值。
 

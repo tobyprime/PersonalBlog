@@ -1,12 +1,13 @@
 ---
 title: I3D
-date: 2022-07-06
 cover: struct.png
 tags:
-- Video Understanding
-- Computer Vision
+  - Video Understanding
+  - Computer Vision
 categories:
-- Paper Reading
+  - Paper Reading
+abbrlink: 5573
+date: 2022-07-06 00:00:00
 ---
 将 2D 卷积膨胀到 3D,用于有时序的三维视频理解任务，同时能够复用 2D 卷积的参数以减少训练周期。
 

@@ -1,12 +1,13 @@
 ---
 title: DETR
 cover: output.png
-date: 2022-11-10 16:21:19
 tags:
-- Object Detection
-- Computer Vision
+  - Object Detection
+  - Computer Vision
 categories:
-- Paper Reading
+  - Paper Reading
+abbrlink: 6330
+date: 2022-11-10 16:21:19
 ---
 # 概述
 - 基于Transformer的端到端目标检测网络

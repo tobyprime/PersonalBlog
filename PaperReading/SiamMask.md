@@ -1,13 +1,14 @@
 ---
 title: SiamMask
-date: 2022-11-11 01:05:48
 cover: structure.png
 tags:
-- VOS
-- Object Tracking
-- Computer Vision
+  - VOS
+  - Object Tracking
+  - Computer Vision
 categories:
-- Paper Reading
+  - Paper Reading
+abbrlink: 64059
+date: 2022-11-11 01:05:48
 ---
 
 # 概述

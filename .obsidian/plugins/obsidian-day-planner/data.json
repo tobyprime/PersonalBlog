@@ -1,0 +1,19 @@
+{
+  "customFolder": "Day Planners",
+  "mode": 1,
+  "mermaid": false,
+  "notesToDates": [
+    {
+      "notePath": "日记/2023-01-30.md",
+      "date": "Mon Jan 30 2023"
+    },
+    {
+      "date": "Tue Jan 31 2023"
+    }
+  ],
+  "completePastItems": false,
+  "circularProgress": false,
+  "nowAndNextInStatusBar": false,
+  "showTaskNotification": false,
+  "timelineZoomLevel": 1
+}

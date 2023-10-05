@@ -1,12 +1,13 @@
 ---
 title: SwinTrack
-date: 2022-11-11 18:20:15
 cover: structure.png
 tags:
-- Object Tracking
-- Computer Vision
+  - Object Tracking
+  - Computer Vision
 categories:
-- Paper Reading
+  - Paper Reading
+abbrlink: 52301
+date: 2022-11-11 18:20:15
 ---
 # 概述
 - 基于 Siamese 框架的简单而高效的全注意力跟踪模型。

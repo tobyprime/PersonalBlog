@@ -1,11 +1,12 @@
 ---
 title: 线性回归
-date: 2023-03-31 21:41:03
 cover: cover.gif
 tags:
-- Machine Learnng
+  - Machine Learnng
 categories:
-- Machine Learnng
+  - Machine Learnng
+abbrlink: 52662
+date: 2023-03-31 21:41:03
 ---
 # 普通线性回归 Linear Regression
 ## 一般形式
@@ -26,8 +27,7 @@ $$E = \sum_i^n(f(x_i)-y_i)$$
 $$w^*,b^*=\argmin_{w,b} E$$
 
 ### 一元线性回归的最小二乘法推导
-如下图所示，蓝色为预测值 $f(x)$，粉色为真实值 $y$，灰色阴影部分为 $E$，$E$ 在 $f(x)$ 与 $y$ 相交时为 $0$，而交点左右逐渐增大，可见 $E$ **为一个凸函数**。
-![](E.png)
+$E$ 在 $f(x)$ 与 $y$ 相交时为 $0$，而交点左右逐渐增大，显然 $E$ **为一个凸函数**。
 
 因为 $E$ 是凹函数，其导数为 0 时 $E$ 刚好为最小值，所以为了求一组 $w$ 与 $b$ 使得 $E$ 最小可以通过对 $E$ 分别求 $w$ 和 $b$ 的偏导并置 $0$ 得到闭式解：
 $$
@@ -71,7 +71,6 @@ $$
 $$
 \begin{aligned}
 w \sum_i^n x^2_i &= \sum_i^n (y_i-(\bar{y}-w \bar{x}))x_i \\
-w \sum_i^n x^2_i &= \sum_i^n(y_i-\bar{y}+w \bar{x})x_i \\
 w\sum_i^n x^2_i &= \sum_i^n(x_iy_i-\bar{y}x_i+w\bar{x}x_i) \\
 w\sum_i^n x^2_i &= \sum_i^n x_i y_i-\bar{y}\sum_i^n x_i+w\bar{x} \sum_i^n x_i \\
 w(\sum_i^n x^2_i - \bar{x} \sum_i^n x_i) &= \sum_i^n x_i y_i-\bar{y}\sum_i^n x_i \\
@@ -84,6 +83,7 @@ w &= \frac{\sum_i^n y_i (x_i-\bar{x})}{\sum_i^n x^2_i - \frac{1}{n}\sum_i^n x_i^
 $$
 
 将 $(5)$ 向量化以能够使用矩阵运算加速库
+{% hideToggle 详细过程,bg,color %}
 $$
 \begin{aligned}
 
@@ -99,6 +99,8 @@ w &= \frac{\sum_i^n (x_i(y_i-\bar{y})-\hat{x}(y_i-\bar{y}))}{\sum_i^n (x_i(x_i-\
 w &= \frac{\sum_i^n (x_i-\bar{x})(y_i-\bar{y})}{\sum_i^n (x_i-\bar{x})^2} \\
 \end{aligned} 
 $$
+{% endhideToggle %}
+
 令 $x_d=(x_1-\bar{x};...;x_n-\bar{x})$，为去均值后的 $x$，$y_d=(y_1-\bar{y};...;y_n-\bar{y})$ 为去均值后的 $y$，代入上式：
 $$
 \begin{aligned}

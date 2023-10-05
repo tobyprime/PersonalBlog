@@ -1,11 +1,12 @@
 ---
 title: 支持向量机
-date: 2023-04-06 11:54:33
 cover: cover.png
 tags:
-- Machine Learnng
+  - Machine Learnng
 categories:
-- Machine Learnng
+  - Machine Learnng
+abbrlink: 49107
+date: 2023-04-06 11:54:33
 ---
 是一种二分类模型，目的是找到一个超平面，使得它能够正确划分训练数据集，并且使得训练数据集中离超平面最近的点（即支持向量）到超平面的距离最大。
 

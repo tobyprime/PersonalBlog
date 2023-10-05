@@ -1,11 +1,12 @@
 ---
 title: 决策树
-date: 2023-04-02 07:04:05
 cover: cover.png
 tags:
-- Machine Learnng
+  - Machine Learnng
 categories:
-- Machine Learnng
+  - Machine Learnng
+abbrlink: 51507
+date: 2023-04-02 07:04:05
 ---
 用一棵树来表示数据的分类或回归规则。每个节点表示一个属性的判别，每个分支表示判别的结果，每个叶节点表示一个类别或一个数值。决策树的生成过程是不断地选择最优的属性来划分数据集，使得每个子集的纯度越来越高。
 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "212ccbb51336c9da",
+        "id": "17744b93544fda18",
         "type": "tabs",
         "children": [
           {
-            "id": "f5342dbb8ddd383b",
+            "id": "369c26ddc8377f7f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/数学分析  - 连续函数.md",
+                "file": "Readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/数学分析  - 连续函数.md",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/数学分析  - 连续函数.md",
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/数学分析  - 连续函数.md"
+                "file": "Readme.md"
               }
             }
           },
@@ -157,16 +157,17 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f5342dbb8ddd383b",
+  "active": "369c26ddc8377f7f",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Readme.md",
+    "Math/数学分析 - 平面.md",
     "Math/数学分析  - 连续函数.md",
-    "Math/数学分析 - 函数极限.md",
     "Math/数学分析 - 数列.md",
+    "Math/数学分析 - 函数极限.md",
+    "Math/数学分析 - 复平面.md",
     "Math/数学分析 - 数列/数列.png",
     "Math/Latex 符号表.md",
-    "Math/数学分析 - 平面.md",
-    "Math/数学分析 - 复平面.md",
-    "Readme.md",
     "连续函数",
     "Math/数学分析 - 连续函数.md",
     "MachineLearning/LinearRegression.md",

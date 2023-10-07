@@ -1,6 +1,6 @@
 ---
 title: Hello World
-date: 2000-0-0
+date: 2000-01-01
 categories:
   - 杂项
 abbrlink: 16107

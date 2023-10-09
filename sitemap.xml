@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://tobyprime.top/45674/</loc>
+    <loc>https://tobyprime.top/recaptcha/index.html</loc>
     
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tobyprime.top/0/</loc>
+    
+    <lastmod>2023-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,7 +22,7 @@
   <url>
     <loc>https://tobyprime.top/undefined/</loc>
     
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-06</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -21,6 +30,24 @@
   
   <url>
     <loc>https://tobyprime.top/16312/</loc>
+    
+    <lastmod>2023-10-06</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tobyprime.top/16107/</loc>
+    
+    <lastmod>2023-10-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tobyprime.top/45674/</loc>
     
     <lastmod>2023-10-05</lastmod>
     
@@ -92,42 +119,6 @@
   </url>
   
   <url>
-    <loc>https://tobyprime.top/4385/</loc>
-    
-    <lastmod>2023-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tobyprime.top/42224/</loc>
-    
-    <lastmod>2023-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tobyprime.top/47787/</loc>
-    
-    <lastmod>2023-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tobyprime.top/2599/</loc>
-    
-    <lastmod>2023-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tobyprime.top/51087/</loc>
     
     <lastmod>2023-08-14</lastmod>
@@ -155,6 +146,42 @@
   </url>
   
   <url>
+    <loc>https://tobyprime.top/2599/</loc>
+    
+    <lastmod>2023-08-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tobyprime.top/4385/</loc>
+    
+    <lastmod>2023-08-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tobyprime.top/42224/</loc>
+    
+    <lastmod>2023-08-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tobyprime.top/47787/</loc>
+    
+    <lastmod>2023-08-14</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://tobyprime.top/6330/</loc>
     
     <lastmod>2023-08-14</lastmod>
@@ -174,15 +201,6 @@
   
   <url>
     <loc>https://tobyprime.top/43208/</loc>
-    
-    <lastmod>2023-08-14</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://tobyprime.top/16107/</loc>
     
     <lastmod>2023-08-14</lastmod>
     
@@ -256,78 +274,78 @@
 
   <url>
     <loc>https://tobyprime.top/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
-    <loc>https://tobyprime.top/tags/Optimization/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <loc>https://tobyprime.top/tags/Machine-Learnng/</loc>
+    <lastmod>2023-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tobyprime.top/tags/Math/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://tobyprime.top/tags/Machine-Learnng/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <loc>https://tobyprime.top/tags/Optimization/</loc>
+    <lastmod>2023-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tobyprime.top/tags/Object-Detection/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tobyprime.top/tags/Computer-Vision/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tobyprime.top/tags/Video-Understanding/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tobyprime.top/tags/Backbone/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tobyprime.top/tags/Object-Tracking/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tobyprime.top/tags/VOS/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tobyprime.top/tags/Object-Segmentation/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -336,35 +354,35 @@
   
   <url>
     <loc>https://tobyprime.top/categories/%E6%9D%82%E9%A1%B9/</loc>
-    <lastmod>2023-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tobyprime.top/categories/%E6%9C%80%E4%BC%98%E5%8C%96/</loc>
-    <lastmod>2023-10-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://tobyprime.top/categories/Mathematical-Analysis/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tobyprime.top/categories/Machine-Learnng/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tobyprime.top/categories/Mathematical-Analysis/</loc>
+    <lastmod>2023-10-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://tobyprime.top/categories/%E6%9C%80%E4%BC%98%E5%8C%96/</loc>
+    <lastmod>2023-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://tobyprime.top/categories/Paper-Reading/</loc>
-    <lastmod>2023-10-05</lastmod>
+    <lastmod>2023-10-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

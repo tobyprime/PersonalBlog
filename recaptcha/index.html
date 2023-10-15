@@ -3,20 +3,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>recaptcha | Toby 的小博客 Pro Max</title>
+    <title>recaptcha</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="theme-color" content="#ffffff">
     <meta property="og:type" content="website">
     <meta property="og:title" content="recaptcha">
     <meta property="og:url" content="https://tobyprime.top/recaptcha/index.html">
-    <meta property="og:site_name" content="Toby 的小博客 Pro Max">
       <meta property="og:locale" content="zh_CN">
-    <meta property="og:image" content="https://tobyprime.top/img/avatar.png">
     <meta name="referrer" content="never">
     <meta data-draft-node="block" data-draft-type="table" data-size="normal" data-row-style="normal">
     <link rel="stylesheet" href="/css/index.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="all" onload="this.media='all'">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="all" onload="this.media='all'">
 </head>
 <body>
 <main class="layout hide-aside" id="content-inner">
@@ -33,8 +29,8 @@
                     Telegram.WebApp.sendData(grecaptcha.getResponse());
                 }
             </script>
-            <script src="https://telegram.org/js/telegram-web-app.js"></script>
-            <script src="https://www.google.com/recaptcha/api.js" async="" defer=""></script>
+            <script src="/recaptcha/tgapi.js"></script>
+            <script src="https://www.recaptcha.net/recaptcha/api.js" async="" defer=""></script>
             <form action="?" method="POST">
                 <center>
                     <div class="g-recaptcha" data-sitekey="6Ldf7oooAAAAAKpsSRpArcbIdN4qsNHIp_83OXui" data-callback=recaptcha_callback></div>

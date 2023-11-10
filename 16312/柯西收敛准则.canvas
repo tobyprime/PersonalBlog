@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"a983f75ad7cdc3ad","type":"text","text":"$A$ 为使 “只有有限个项满足 $\\alpha_{n}\\leq\\rho$ ”，的所有 $\\rho$ 的集合，显然$\\rho<\\alpha$。","x":-420,"y":-280,"width":250,"height":90,"color":"4"},
+		{"id":"7b2c1b134cfe1ebe","type":"text","text":"$A^\\prime$，为$A$的补集，即为使得 “有无限个项满足 $\\alpha_{n}\\leq \\sigma$”，的所有 $\\sigma$ 的集合。","x":-420,"y":-160,"width":250,"height":120,"color":"4"},
+		{"id":"5e78d79e8cbfc95c","type":"text","text":"取一正整数 $l >n_{0}(1)$，则只要 $n>n_{0}(1)$ 时，都有 $a_{l}-1<a_{n}<a_{l}+1$ ，因此 $a_{l}-1 \\in A$，$a_{l}+1 \\in B$ ，**即 $A$ 与 $A^\\prime$ 非空。**\n","x":-40,"y":-170,"width":250,"height":141},
+		{"id":"312f0c85beeecc2b","type":"text","text":"$\\langle A,A^\\prime \\rangle$ 是 $\\mathbb{R}$ 的分划，**显然 $\\rho<\\sigma$。**","x":280,"y":-130,"width":250,"height":60},
+		{"id":"e69f7fd843f0825f","type":"text","text":"满足 $\\alpha_{n}\\leq\\rho$ 的项有有限个，即 **$\\rho<\\alpha_{n}$ 除了有限个项外都成立**。","x":-40,"y":-351,"width":250,"height":101},
+		{"id":"813c5fef860db0ac","type":"text","text":"由于实数的稠密性，必定存在 $\\alpha$ 满足 $\\forall\\rho \\in A,\\forall\\sigma \\in A^\\prime,\\rho<\\alpha<\\sigma$，又由于$\\langle A,A^\\prime \\rangle$ 是 $\\mathbb{R}$ 的分划，根据[Dedkind 切割定理](https://math.fandom.com/zh/wiki/Dedekind_%E5%88%86%E5%89%B2) 所以 **$\\alpha$ 是 $A$ 中的最大数，或是 $A^\\prime$ 中的最小数。**","x":600,"y":-221,"width":250,"height":243},
+		{"id":"29c4296dcd22fd8e","type":"text","text":"任意给定 $\\sigma \\in A^\\prime$ 根据有理数的稠密性，可以选取一个 $r$ 满足 $\\alpha<r<\\sigma$，令$\\varepsilon=\\sigma-r$","x":920,"y":-175,"width":260,"height":151,"color":"4"},
+		{"id":"c87fb0840f8d9008","type":"text","text":"一旦从这无数个 $m$ 中确定一个，此时只要 $n>n_{0}(\\varepsilon)$ 就有 $a_{n}-a_{m}<\\sigma-r$，又 $\\alpha_m\\leq r$ 所以 $\\alpha_n<\\sigma$ 。综上 **$\\alpha_{n}<\\sigma$ 除了有限个项外都成立**。","x":1620,"y":-192,"width":250,"height":186},
+		{"id":"7624dad227cf9b41","type":"text","text":"证毕","x":2320,"y":-324,"width":250,"height":60,"color":"6"},
+		{"id":"a6d27214b4d88b22","type":"text","text":"此时对于 $\\varepsilon$ 存在 $n_{0}(\\varepsilon)$，使得 $n>n_{0}(\\varepsilon),m>n_{0}(\\varepsilon)$ 时，$|\\alpha_{n}-\\alpha_{m}|<\\sigma-r$，成立。","x":1280,"y":-257,"width":250,"height":130},
+		{"id":"561c83a5311e4f61","type":"text","text":" $r>\\alpha$ 所以 $r \\in A^\\prime$，因此，有无数个正整数 $m$ 使得 $\\alpha_{m}\\leq r$ 成立，显然在这无数个 $m$ 中也存在无数个满足 $m>n_{0}(\\varepsilon)$ ","x":1280,"y":-91,"width":250,"height":170},
+		{"id":"425399f357798729","type":"text","text":"除了有限个$n$外，不等式$\\rho<\\alpha_{n}<\\sigma$ 成立，**满足定理 1.1.1。**","x":1980,"y":-359,"width":250,"height":130}
+	],
+	"edges":[
+		{"id":"656fe1804257560c","fromNode":"a983f75ad7cdc3ad","fromSide":"right","toNode":"5e78d79e8cbfc95c","toSide":"left"},
+		{"id":"a3b0e84e0479b48f","fromNode":"7b2c1b134cfe1ebe","fromSide":"right","toNode":"5e78d79e8cbfc95c","toSide":"left"},
+		{"id":"49a0aa5b23d7df9f","fromNode":"5e78d79e8cbfc95c","fromSide":"right","toNode":"312f0c85beeecc2b","toSide":"left"},
+		{"id":"7477b22d0247cff9","fromNode":"a983f75ad7cdc3ad","fromSide":"right","toNode":"e69f7fd843f0825f","toSide":"left"},
+		{"id":"62c6bfaace973140","fromNode":"813c5fef860db0ac","fromSide":"right","toNode":"29c4296dcd22fd8e","toSide":"left"},
+		{"id":"1175d2db6fc69f96","fromNode":"29c4296dcd22fd8e","fromSide":"right","toNode":"561c83a5311e4f61","toSide":"left"},
+		{"id":"14e321af1b39953d","fromNode":"29c4296dcd22fd8e","fromSide":"right","toNode":"a6d27214b4d88b22","toSide":"left"},
+		{"id":"d6aa8fba1ec61de7","fromNode":"a6d27214b4d88b22","fromSide":"right","toNode":"c87fb0840f8d9008","toSide":"left"},
+		{"id":"c3d5eb7cfb98aa85","fromNode":"561c83a5311e4f61","fromSide":"right","toNode":"c87fb0840f8d9008","toSide":"left"},
+		{"id":"225fe152c6d6c4d2","fromNode":"e69f7fd843f0825f","fromSide":"right","toNode":"425399f357798729","toSide":"left"},
+		{"id":"50556a98d35f3a9b","fromNode":"c87fb0840f8d9008","fromSide":"right","toNode":"425399f357798729","toSide":"left"},
+		{"id":"f76c80169c9035ef","fromNode":"425399f357798729","fromSide":"right","toNode":"7624dad227cf9b41","toSide":"left"},
+		{"id":"049181c3ecd77593","fromNode":"312f0c85beeecc2b","fromSide":"right","toNode":"813c5fef860db0ac","toSide":"left"}
+	]
+}
